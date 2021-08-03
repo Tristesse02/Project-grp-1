@@ -1,0 +1,66 @@
+*{
+    /* -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#page_title{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+}
+
+#input_card_title{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #FF7052;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+#input_card{
+    position: relative;
+    top: 100%;
+	width: 250px;
+    display: table;
+    margin: 0 auto 0 auto;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    display: block;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: darken(#EDEDED, 30%);
+}
+
+button{
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background-color: #FF7052;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: gainsboro;
+    color: #FF7052;
+    font-weight: bold;
+}
+
+#message{
+    display: none;
+}
