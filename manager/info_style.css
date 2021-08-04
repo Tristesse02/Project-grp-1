@@ -1,0 +1,16 @@
+#page_title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #FF7052;
+    color: #fff;
+    font-size: 40px;
+}
+
+input{
+    display: block;
+    position: relative;
+    width: 99%;
+    height: 25px;
+    border: 2px solid #FF7052;
+}

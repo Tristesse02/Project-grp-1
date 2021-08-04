@@ -1,7 +1,6 @@
 var btn=document.getElementById('btn');
-var ip=document.getElementsByTagName('input');
 var message=document.getElementById('message');
-console.log(ip);
+
 const data=[
     {
         manager: 'hien',
@@ -18,17 +17,19 @@ function page_redirect(destination_file){
     window.location=destination_file;
 }
 
-function verify(){
-    let manager=ip[0].value;
-    let hotel=ip[1].value;
-    let mana_stat=data.findIndex(function(item){return data.manager==manager});
-    let hotel_stat=data.find(function(item){return data.hotel==hotel});
-    if (mana_stat!='' && hotel_stat!=''){
-        page_redirect('info_layout.html')
+btn.addEventListener('click',function(){
+    let ip_name=document.getElementById('ip_name').value;
+    let ip_hotel=document.getElementById('ip_hotel').value;
+    let name_stat=data.findIndex(function(item){return item.manager==ip_name});
+    let hotel_stat=data.findIndex(function(item){return item.hotel_name==ip_hotel});
+    console.log(name_stat);
+    console.log(hotel_stat)
+    if (name_stat==hotel_stat && name_stat!=-1 && hotel_stat!=-1){
+        page_redirect('info_layout.html');
+        console.log('abc')
     }
     else{
-        message.style.display='box';
+        message.style.display='block';
+        console.log('xyz')
     }
-}
-
-btn.addEventListener('click',verify());
+});

@@ -63,4 +63,9 @@ button:hover{
 
 #message{
     display: none;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 17px;
 }
