@@ -1,0 +1,250 @@
+.top{
+    background-color: #f1f1f1;
+    align-items: stretch;
+    font-size:25px;
+    padding: 1px 10px;
+}
+.flex-container{
+    display: flex;
+    background-color: #f1f1f1;
+    align-items: stretch; 
+}
+.flex-container > div.col1{
+    /* background-color: rgb(112, 233, 233); */
+    color: black;
+    width:20%;
+    margin:2px;
+    text-align: center;
+    line-height:75px;
+}
+.flex-container > div.col2{
+    background-color:white;
+    color: black;
+    width: 80%;
+    margin:2px;
+    text-align: center;
+    line-height:75px;
+    margin-bottom: 30px;
+}
+div.imgg{
+    line-height: 20px;
+    padding: 0px -10px;
+}
+.img{
+    margin-top: 2px;
+    margin-left: -15px;
+    
+}
+.imggg{
+    width:20px;
+}
+.bed{
+    width:20px;
+}
+.col1{
+    border-right: 1px solid rgb(204, 202, 202);
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+div.prop{
+    line-height: 20px;
+    margin: -20px;
+    margin-left: -35px;
+    padding: 10px 2px;
+    
+}
+.list{
+    text-align: left;
+}
+li{
+    padding-bottom: 4px;
+}
+.col2{
+    background-color: #f1f1f1;
+    align-items: stretch; 
+}
+.childRoomList-header{
+    display: flex;
+    background-color: #f1f1f1;
+    align-items: stretch;
+}
+.childRoomList-header > div.benefit{
+    /* background-color: rgb(112, 233, 233); */
+    color: black;
+    width:37.78%;
+    margin:2px;
+    text-align: left;
+    line-height:35px;
+    border-width: 1px;
+    border-color: rgb(124, 124, 126);
+}
+.childRoomList-header > div.sleep{
+    /* background-color: rgb(112, 233, 233); */
+    color: black;
+    width:10%;
+    margin:2px;
+    margin-left: 20px;
+    padding: 2px;
+    text-align: left;
+    line-height:35px;
+    border-width: 1px;
+    border-color: rgb(124, 124, 126);
+
+}
+.childRoomList-header > div.price{
+    /* background-color: rgb(112, 233, 233); */
+    color: black;
+    width:21.6%;
+    margin:2px;
+    text-align: left;
+    line-height:35px;
+    border-width: 1px;
+    border-color: rgb(124, 124, 126);
+
+}
+.childRoomList-header > div.room{
+    /* background-color: rgb(112, 233, 233); */
+    color: black;
+    width:10%;
+    margin:2px;
+    text-align: left;
+    line-height:35px;
+    border-width: 1px;
+    border-color: rgb(124, 124, 126);
+
+}
+.childRoomList-header > div.book{
+    /* background-color: rgb(112, 233, 233); */
+    color: black;
+    width:21.6%;
+    margin:2px;
+    text-align: left;
+    line-height:35px;
+    border-width: 1px;
+    border-color: rgb(124, 124, 126);
+
+}
+.childRoomList-body{
+    display: flex;
+    background-color: #f1f1f1;
+    align-items: stretch; 
+    margin-bottom: -10px;
+}
+.childRoomList-body > div{
+    background-color: white;
+    color: black;
+    text-align: left;
+    line-height:35px;
+    border-right-style:solid;
+    border-width: 1px;
+    border-color: rgb(124, 124, 126);
+}
+.tab1{
+    width:37.78%;
+   
+}
+.tab2{
+    width:10%;
+    
+    
+}
+.tab3{
+    width:21.6%;
+    
+}
+.tab4{
+    width:10%;
+    
+    
+}
+.tab5{
+    width:21.6%;
+    
+    
+}
+.childRoomList-room-bucketspan{
+    /* font-size: 12px; */
+    font-weight: 700;
+}
+.childRoomList-benefit-promo{
+    background-color:rgb(177, 230, 180);
+    
+    padding: 2px;
+    border: 1.5px dashed green;
+    font-size: 12px;
+    font-weight: 700;
+}
+.childRoomList-benefit-pro{
+    font-size: 13px;
+    font-weight: 700;
+    color:rgb(47, 131, 51);
+}
+.childRoomList-sleep{
+    text-align: center; 
+}
+.person{
+    width: 17px;
+    margin-top:2px;
+}
+.childRoomList-price-noti{
+    background-color: red;
+    width: 80%;
+    line-height:20px;
+    margin-top: 7px;
+    margin-left:-1px
+}
+.childRoomList-price-noti-text{
+    text-align: center;
+    color: snow;
+}
+.childRoomList-price-cut{
+    text-align: right;
+    font-size: 20px;
+}
+.childRoomList-price-vnd {
+    text-align: right;
+    color: red;
+    font-weight: 700;
+    line-height:20px;
+}
+.childRoomList-price-offer{
+    font-size: 30px;
+}
+.childRoomList-price-comment{
+    text-align: right;
+    line-height:10px;
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(124, 124, 126);
+}
+.childRoomList-room-num{
+    background-color:#b9b6b6;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid grey;
+    margin: 3px 25px;
+}
+.childRoomList-room{
+    text-align: center;
+}
+.btn-text1{
+    background-color: dodgerblue;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    color:snow;
+}
+div.btn-text1:hover{
+    background-color:rgb(77, 166, 255);
+}
+.warning{
+    text-align: center;
+    background-color: honeydew;
+    color: seagreen;
+    line-height: 20px;
+    padding: 5px;
+    border: 1.5px dashed seagreen;
+    margin: 0px 30px;
+}
