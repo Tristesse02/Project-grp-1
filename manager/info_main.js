@@ -51,6 +51,6 @@ cf_btn.addEventListener('click', function(){
     };
     data.push(new_hotel);
     localStorage.setItem('data',JSON.stringify(data));
-    page_redirect()
+    page_redirect('cf_layout.html')
 })
 
