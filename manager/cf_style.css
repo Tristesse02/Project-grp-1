@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #FF7052;
+    color: #fff;
+    font-size: 40px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #FF7052;
+    color: #fff;
+    font-size: 30px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #FF7052;
+    color: #fff;
+    font-size: 20px;
+}

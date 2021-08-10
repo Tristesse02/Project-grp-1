@@ -7,10 +7,32 @@
     font-size: 40px;
 }
 
-input{
+input, select{
     display: block;
     position: relative;
     width: 99%;
     height: 25px;
     border: 2px solid #FF7052;
+}
+
+/* select{
+    padding: 1px 2px 1px 2px;
+} */
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+
+.ip_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#note{
+    font-weight: bolder;
+    color: red;
 }

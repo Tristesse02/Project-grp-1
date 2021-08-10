@@ -8,22 +8,34 @@
     <link rel='stylesheet' href="info_style.css">
 </head>
 <body>
+    <div>
+        <img src="024039c80452f5313fef3b8bc6380a4c.gif" alt="image">
+    </div>
     <h1 id='page_title'>Your hotel information</h1>
-    <div id='change_card'>
+    <div id='ip_card'>
         <div>
-            <div class='change_group'>
-                <span>Manager name:</span>
-                <input type="text" placeholder="Manager" required>
-            </div>
-            <div class="change_group">
-                <span>Hotel name:</span>
+            <div>
+                <span class='ip_title'>Hotel name:</span>
                 <input type='text' placeholder="Your hotel name" required>
             </div>
-
             <br>
-
-            <button id='btn'>Confirm</button>
+            <div>
+                <span class='ip_title'>Manager name:</span>
+                <input type="text" placeholder="Manager" required>
+            </div>
+            <br>
+            <div>
+                <span class="ip_title">Hotel address:</span>
+                <input type="text" placeholder="Your hotel address" required>
+            </div>
+            <br>
+            <p class="ip_title">Rooms:</p>
+            <button id='+'>+</button>
+            <br><br>
+            <div id='room_type'></div>
+            <button id='cf_btn'>Confirm</button>
         </div>
     </div> 
+    <script src="info_main.js"></script>
 </body>
 </html>
