@@ -36,3 +36,9 @@ img{
     font-weight: bolder;
     color: red;
 }
+input{
+    outline-color: #FF7052;
+}
+input:focus{
+    box-shadow: 1px 1px 5px #FF7052;
+}
