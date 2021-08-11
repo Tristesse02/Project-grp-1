@@ -54,13 +54,40 @@
                 </div>
                 
             </div>
-            <div class="for-btn"><button id="btn" onclick="submit()">Submit</button></div>
+            
         </div>
 
 
         
     </div>
-    <div class="body"
+    <div class="body-content-init">
+        <div class="body-header">Payment method</div>
+        <div class="body-content-sec">
+            <div class="body-content-sec-name">
+                
+                <div class="payment-method">Select your payment method <span style="color:red; font-size: small">you can only choose one method*</span></div>
+                <div class="div-visa">
+                    <button class="visa1"><input type="checkbox" id="checkbox"> <img class="img" src="https://e7.pngegg.com/pngimages/37/513/png-clipart-logo-visa-credit-card-debit-card-visa-text-trademark.png"></button>
+                </div>
+                <div class="div-visa">
+                    <button class="visa"><span class="div-checkbox2"><input type="checkbox" id="checkbox"></span> <img class="img" src="https://w7.pngwing.com/pngs/92/785/png-transparent-mastercard-logo-mastercard-credit-card-payment-visa-nyse-ma-mastercard-logo-text-logo-sign.png"></button>
+                </div>
+                <div class="div-visa">
+                    <button class="visa3"><input type="checkbox" id="checkbox"><img class="img3" src="https://i0.wp.com/nintendosoup.com/wp-content/uploads/2017/08/paypal_logo_1.jpg?fit=895%2C543&ssl=1"></button>
+                </div>
+                <div class="body-card-property">Card property<span id="warn-card-property" style="color:red; font-size: small"></span></div>
+                <input class="inp-sec" placeholder="Card holder's name">
+                <input class="inp-sec" placeholder="Card number">
+                <div class="card-property">
+                    <input class="expiration" placeholder="expiration date MM/DD"> <input class="CV-code" placeholder="CV Code">
+                </div>
+                <div class="div-amount">
+                    <input class="amount" placeholder="Amount"><span class="symbol">VND</span>
+                </div>
+                <div class="for-btn"><button id="btn" onclick="submit()">Submit</button></div>
+            </div>
+        </div>
+    </div>
     <script src="payment.js"></script>
 </body>
 </html>
